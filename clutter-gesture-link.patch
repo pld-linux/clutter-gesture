@@ -1,0 +1,11 @@
+--- clutter-gesture/engine/Makefile.am.orig	2012-10-07 14:59:47.000000000 +0200
++++ clutter-gesture/engine/Makefile.am	2012-10-07 17:00:18.866289271 +0200
+@@ -19,7 +19,7 @@
+ #       Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
+ #       USA.
+ 
+-lib_LTLIBRARIES= libengine.la
++noinst_LTLIBRARIES= libengine.la
+ 
+ libengine_la_SOURCES = engine.c engine.h plugin.h stroke.c stroke.h gesture_recog.c gesture_recog.h
+ 
