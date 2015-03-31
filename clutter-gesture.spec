@@ -1,13 +1,14 @@
 #
 # Conditional build:
 %bcond_without	static_libs	# don't build static libraries
-#
+
+%define	rel		2
+%define	snap	20100106
 Summary:	Clutter Gesture library
 Summary(pl.UTF-8):	Biblioteka gestów Clutter
 Name:		clutter-gesture
 Version:	0.0.2
-%define	snap	20100106
-Release:	0.%{snap}.1
+Release:	0.%{snap}.%{rel}
 License:	LGPL v2.1
 Group:		Libraries
 # git clone git://git.moblin.org/clutter-gesture
